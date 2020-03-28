@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Lotto</title>
+
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+    <script src="main.js"></script>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar  navbar-expand-md">
+        <a href="index.html" class="navbar-brand"> LUCKY NUMBERS</a>
+        <ul class="navbar-nav ml-auto ">
+          <li class="nav-item">
+            <a class="nav-link" href="https://www.nationallottery.co.za/" target="_blank">See Live Results</a>
+          </li>
+      </nav>
+      <section class="jumbotron jumbotron-fluid text-center mb-0">
+        <h1>Lottery Number Generator</h1>
+        <p class="lead">
+          Would you like to hit the jackpot but guessing numbers is a fuss?<br />
+          Try our Lottery Number Generator!
+        </p>
+      </section>
+    </header>
+    <main>
+      <section id="lotteryNumbers" class="container">
+        <div class="row mb-5">
+          <!-- Column for Lotto -->
+          <div id="lotto" class="col-lg-6 text-center">
+            <h1>Lotto</h1>
+            <p class="lead text-justify">
+              Lotto is an on-line Game utlilising a computerised terminal to
+              recordselections and also validate prize claims. Participants may
+              select 6 out of 52 numbers that can be entered into a draw. The
+              live draw takes place twice a week, Wednesday and Saturday.
+            </p>
+            <button class="btn btn-primary" onclick="generateL(6, 1, 51);">
+              Get Lotto Numbers
+            </button>
+
+            <h4 id="numLp"></h4>
+
+            <p id="numL" class="text-center"></p>
+          </div>
+          <!-- Column for Powerball -->
+          <div id="powerb" class="col-lg-6  text-center">
+            <h1>PowerBall</h1>
+            <p class="lead text-left">
+              Powerball is an on-line Game utlilising a computerised terminal to
+              record selections and also validate prize claims. Participants may
+              select 5 out of 50 numbers and 1 number out of 20 numbers that can
+              be entered into a draw. The live draw takes place twice a week,
+              Tuesday and Friday.
+            </p>
+            <button class="btn btn-primary" onclick="generateB(5, 1, 49);">
+              Get Powerball Numbers
+            </button>
+
+            <h4 id="numBp"></h4>
+            <div id="numbers" class="text-center">
+              <p id="numB" class="text-center"></p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="card ">
+        <div class="card-header text-center">
+         <a href="#">Designed by ReachThabo</a>
+        </div>
+    </footer>
+  </body>
+</html>

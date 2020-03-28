@@ -1,0 +1,52 @@
+body {
+  background: #f2f2f2;
+}
+nav {
+  background-color: #f2f2f2;
+  color: black;
+}
+a.navbar-brand {
+  color: black;
+}
+a.navbar-brand:hover {
+  color: #0e9bc2;
+}
+a:hover {
+  color: #0e9bc2;
+}
+a {
+  color: black;
+}
+h1 {
+  color: white;
+}
+.submit {
+  margin-bottom: 10px;
+}
+p {
+  font-size: 1.5rem;
+  color: white;
+}
+p.lead {
+  font-size: 1.5rem;
+  font-weight: 300;
+}
+#lotto {
+  background: #fad919;
+}
+#powerb {
+  background: #069edb;
+}
+.btn {
+  font-size: 20px;
+}
+.container {
+  margin-top: 1.8rem;
+}
+
+section.jumbotron {
+  background-color: #069edb;
+}
+.card {
+  background: #fad919;
+}
