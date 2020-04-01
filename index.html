@@ -12,6 +12,7 @@
 
     <link rel="stylesheet" href="style.css" />
     <script src="main.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
   </head>
   <body>
     <header>
@@ -32,43 +33,71 @@
     </header>
     <main>
       <section id="lotteryNumbers" class="container">
-        <div class="row mb-5">
+        <div class="row mb-5 lotto-bg d-flex align-items-center">
+          <div class="col-3"></div>
           <!-- Column for Lotto -->
           <div id="lotto" class="col-lg-6 text-center">
-            <h1>Lotto</h1>
-            <p class="lead text-justify">
-              Lotto is an on-line Game utlilising a computerised terminal to
-              recordselections and also validate prize claims. Participants may
-              select 6 out of 52 numbers that can be entered into a draw. The
-              live draw takes place twice a week, Wednesday and Saturday.
-            </p>
-            <button class="btn btn-primary" onclick="generateL(6, 1, 51);">
-              Get Lotto Numbers
-            </button>
+            <h1>Lotto Number Generator</h1>
+            <p class="lead ">
+              Our Lotto Number Generator will pick six random numbers from 1 - 52 for you to play in your next lottery entry,
+               hit the generate button to produce your lucky numbers!. Buy your tickets on the 
+               <a href="https://www.nationallottery.co.za/" target="_blank">National Lottery site.</a></p>
+           
 
             <h4 id="numLp"></h4>
-
-            <p id="numL" class="text-center"></p>
+            <div id="see-lotto" class="text-center d-flex justify-content-center">
+              <p id="numL1" class="text-center">?</p></div>
+            <div id="see-lotto" class="text-center d-flex justify-content-center">
+              <p id="numL2" class="text-center">?</p></div>
+            <div id="see-lotto" class="text-center d-flex justify-content-center">
+              <p id="numL3" class="text-center">?</p></div>
+            <div id="see-lotto" class="text-center d-flex justify-content-center">
+              <p id="numL4" class="text-center">?</p></div>
+            <div id="see-lotto" class="text-center d-flex justify-content-center">
+              <p id="numL5" class="text-center">?</p></div>
+            <div id="see-lotto" class="text-center d-flex justify-content-center">
+              <p id="numL6" class="text-center">?</p></div>
+            
+            <button class="btn btn-warning mb-3" onclick="generateL(6, 1, 51);">
+              Generate!
+            </button>
           </div>
           <!-- Column for Powerball -->
+          <div class="col-3"></div>
+        </div>
+        <div class="row mb-5 power-bg">
+          <div class="col-3"></div>
           <div id="powerb" class="col-lg-6  text-center">
-            <h1>PowerBall</h1>
-            <p class="lead text-left">
-              Powerball is an on-line Game utlilising a computerised terminal to
-              record selections and also validate prize claims. Participants may
-              select 5 out of 50 numbers and 1 number out of 20 numbers that can
-              be entered into a draw. The live draw takes place twice a week,
-              Tuesday and Friday.
+            
+            <h1>PowerBall Number Generator</h1>
+            <p class="lead ">
+              Our PowerBall Number Generator will pick five random numbers from 1 - 50 and one powerball from 1 - 20 for you to play in your next lottery entry,
+               hit the generate button to produce your lucky numbers!. Buy your tickets on the 
+               <a href="https://www.nationallottery.co.za/" target="_blank">National Lottery site.</a>
             </p>
-            <button class="btn btn-primary" onclick="generateB(5, 1, 49);">
-              Get Powerball Numbers
-            </button>
+            
 
             <h4 id="numBp"></h4>
             <div id="numbers" class="text-center">
-              <p id="numB" class="text-center"></p>
+              <div id="see-power" class="text-center d-flex justify-content-center">
+                <p id="numB1" class="text-center">?</p></div>
+              <div id="see-power" class="text-center d-flex justify-content-center">
+                <p id="numB2" class="text-center">?</p></div>
+              <div id="see-power" class="text-center d-flex justify-content-center">
+                <p id="numB3" class="text-center">?</p></div>
+              <div id="see-power" class="text-center d-flex justify-content-center">
+                <p id="numB4" class="text-center">?</p></div>
+              <div id="see-power" class="text-center d-flex justify-content-center">
+                <p id="numB5" class="text-center">?</p></div>
+              <div id="see-power" class="text-center d-flex justify-content-center">
+                <p id="numB6" class="text-center">?</p></div>
+            
             </div>
+            <button class="btn btn-primary mb-3" onclick="generateB(5, 1, 49);">
+              Generate!
+            </button>
           </div>
+          <div class="col-3"></div>
         </div>
       </section>
     </main>

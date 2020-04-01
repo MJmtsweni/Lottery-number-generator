@@ -26,7 +26,12 @@ function generateL(size, lowest, highest) {
     }
   }
   document.getElementById("numLp").innerHTML = "Your Lucky Numbers:";
-  document.getElementById("numL").innerHTML = numbersL.join(" - ");
+  document.getElementById("numL1").innerHTML = numbersL[0];
+  document.getElementById("numL2").innerHTML = numbersL[1];
+  document.getElementById("numL3").innerHTML = numbersL[2];
+  document.getElementById("numL4").innerHTML = numbersL[3];
+  document.getElementById("numL5").innerHTML = numbersL[4];
+  document.getElementById("numL6").innerHTML = numbersL[5];
 }
 
 function generateB(size, lowest, highest) {
@@ -60,5 +65,10 @@ function generateB(size, lowest, highest) {
   numbersB.push(powerB);
 
   document.getElementById("numBp").innerHTML = "Your Lucky Numbers:";
-  document.getElementById("numB").innerHTML = numbersB.join(" - ");
+  document.getElementById("numB1").innerHTML = numbersB[0];
+  document.getElementById("numB2").innerHTML = numbersB[1];
+  document.getElementById("numB3").innerHTML = numbersB[2];
+  document.getElementById("numB4").innerHTML = numbersB[3];
+  document.getElementById("numB5").innerHTML = numbersB[4];
+  document.getElementById("numB6").innerHTML = numbersB[5];
 }

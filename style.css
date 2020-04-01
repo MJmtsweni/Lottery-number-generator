@@ -1,5 +1,5 @@
 body {
-  background: #f2f2f2;
+  background: white;
 }
 nav {
   background-color: #f2f2f2;
@@ -17,26 +17,33 @@ a:hover {
 a {
   color: black;
 }
-h1 {
+h1,
+h4 {
   color: white;
 }
+h1 {
+  margin-top: 2rem;
+}
+
 .submit {
   margin-bottom: 10px;
 }
 p {
+  padding: 7px;
   font-size: 1.5rem;
   color: white;
 }
 p.lead {
   font-size: 1.5rem;
-  font-weight: 300;
+  font-weight: 400;
 }
-#lotto {
+.lotto-bg {
   background: #fad919;
 }
-#powerb {
+.power-bg {
   background: #069edb;
 }
+
 .btn {
   font-size: 20px;
 }
@@ -44,9 +51,101 @@ p.lead {
   margin-top: 1.8rem;
 }
 
+div#see-lotto {
+  float: left;
+  width: 60px;
+  height: 60px;
+  font-size: 2rem;
+  text-align: center;
+  background: #fad919;
+  border: 3px solid white;
+  border-radius: 50%;
+  margin-left: 26px;
+  margin-bottom: 16px;
+  margin-top: 16px;
+}
+div#see-power {
+  float: left;
+  width: 60px;
+  height: 60px;
+  font-size: 2rem;
+  text-align: center;
+  background: #069edb;
+  border: 3px solid white;
+  border-radius: 50%;
+  margin-left: 26px;
+  margin-bottom: 16px;
+  margin-top: 16px;
+}
+.lead a {
+  color: blue;
+  text-decoration: underline;
+}
 section.jumbotron {
   background-color: #069edb;
 }
 .card {
   background: #fad919;
+}
+div {
+  float: none;
+  display: block;
+}
+@media (max-width: 1199.98px) {
+  div#see-power {
+    margin-left: 10px;
+    margin-bottom: 16px;
+    margin-top: 16px;
+  }
+  div#see-lotto {
+    margin-left: 10px;
+    margin-bottom: 16px;
+    margin-top: 16px;
+  }
+}
+
+@media (max-width: 320px) {
+  h1 {
+    font-size: 2rem;
+  }
+  p {
+    font-size: 20px;
+    padding: 0px;
+  }
+  div#see-power {
+    width: 42px;
+    height: 42px;
+    font-size: 3px;
+    margin-left: 5px;
+    margin-bottom: 9px;
+    margin-top: 9px;
+  }
+  div#see-lotto {
+    width: 42px;
+    height: 42px;
+    font-size: 3px;
+    margin-left: 5px;
+    margin-bottom: 9px;
+    margin-top: 9px;
+  }
+}
+@media (max-width: 575.98px) {
+  p {
+    font-size: 28px;
+    margin-top: -8px;
+  }
+  div#see-power {
+    width: 48px;
+    height: 48px;
+    margin-left: 9px;
+    margin-bottom: 16px;
+    margin-top: 16px;
+  }
+  div#see-lotto {
+    width: 48px;
+    height: 48px;
+    margin-left: 9px;
+    margin-bottom: 16px;
+    margin-top: 16px;
+  }
 }
