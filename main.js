@@ -72,3 +72,34 @@ function generateB(size, lowest, highest) {
   document.getElementById("numB5").innerHTML = numbersB[4];
   document.getElementById("numB6").innerHTML = numbersB[5];
 }
+
+// jQuery Smooth Scroll on call to action buttons
+$("#jombo a").on("click", function (e) {
+  if (this.hash !== "") {
+    e.preventDefault();
+
+    const hash = this.hash;
+
+    $("html, body").animate(
+      {
+        scrollTop: $(hash).offset().top,
+      },
+      800
+    );
+  }
+});
+// jQuery Smooth Scroll on call to navlink-items
+$(".nav-item a").on("click", function (e) {
+  if (this.hash !== "") {
+    e.preventDefault();
+
+    const hash = this.hash;
+
+    $("html, body").animate(
+      {
+        scrollTop: $(hash).offset().top,
+      },
+      800
+    );
+  }
+});
