@@ -379,8 +379,8 @@ div {
   }
 
   #numbers p {
-    font-size: 17px;
-    margin-top: -4px;
+    font-size: 18px;
+    margin-top: -2px;
   }
   section.jumbotron {
     margin-bottom: 0 !important;
@@ -390,31 +390,31 @@ div {
     margin-top: 0 !important;
   }
   div#see-power {
-    width: 38px;
-    height: 38px;
+    width: 42px;
+    height: 42px;
     margin-left: 0;
     margin-right: 7px;
     margin-bottom: 5px;
     margin-top: 5px;
   }
   div#see-power-special {
-    width: 38px;
-    height: 38px;
+    width: 42px;
+    height: 42px;
     margin-left: 0;
     margin-bottom: 5px;
     margin-top: 5px;
   }
   div#see-lotto {
-    width: 38px;
-    height: 38px;
+    width: 42px;
+    height: 42px;
     margin-left: 0;
     margin-right: 7px;
     margin-bottom: 5px;
     margin-top: 5px;
   }
   div#see-lotto-special {
-    width: 38px;
-    height: 38px;
+    width: 42px;
+    height: 42px;
     margin-left: 0;
     margin-bottom: 5px;
     margin-top: 5px;
