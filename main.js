@@ -32,6 +32,17 @@ function generateL(size, lowest, highest) {
   document.getElementById("numL4").innerHTML = numbersL[3];
   document.getElementById("numL5").innerHTML = numbersL[4];
   document.getElementById("numL6").innerHTML = numbersL[5];
+  document.getElementById("clearL").style.display = "inline-block";
+}
+// Reset Output
+function clearL() {
+  document.getElementById("numL1").innerHTML = "?";
+  document.getElementById("numL2").innerHTML = "?";
+  document.getElementById("numL3").innerHTML = "?";
+  document.getElementById("numL4").innerHTML = "?";
+  document.getElementById("numL5").innerHTML = "?";
+  document.getElementById("numL6").innerHTML = "?";
+  document.getElementById("clearL").style.display = "none";
 }
 
 function generateB(size, lowest, highest) {
@@ -71,6 +82,17 @@ function generateB(size, lowest, highest) {
   document.getElementById("numB4").innerHTML = numbersB[3];
   document.getElementById("numB5").innerHTML = numbersB[4];
   document.getElementById("numB6").innerHTML = numbersB[5];
+  document.getElementById("clearB").style.display = "inline-block";
+}
+// Reset Output
+function clearB() {
+  document.getElementById("numB1").innerHTML = "?";
+  document.getElementById("numB2").innerHTML = "?";
+  document.getElementById("numB3").innerHTML = "?";
+  document.getElementById("numB4").innerHTML = "?";
+  document.getElementById("numB5").innerHTML = "?";
+  document.getElementById("numB6").innerHTML = "?";
+  document.getElementById("clearB").style.display = "none";
 }
 
 // jQuery Smooth Scroll on call to action buttons

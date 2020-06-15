@@ -27,10 +27,12 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav ml-auto ">
             <li class="nav-item">
-              <a class="nav-link" href="#lotteryNumbers" > Lotto</a>
+              <a class="nav-link" data-toggle="collapse" 
+              href="#lotteryNumbers" data-target=".navbar-collapse.show"> Lotto</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#powerb" > PowerBall</a>
+              <a class="nav-link" data-toggle="collapse" 
+              href="#powerb" data-target=".navbar-collapse.show" > PowerBall</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="https://www.nationallottery.co.za/" target="_blank"> Live Results</a>
@@ -83,11 +85,14 @@
             <div id="see-lotto-special" class="text-center d-flex justify-content-center">
               <p id="numL6" class="text-center">?</p></div>
           </div>
-          <div class="col-3"></div>
+            <div class="col-3"></div>
             <button class="btn btn-warning mb-3 mt-3" onclick="generateL(6, 1, 51);">
               Generate!
             </button>
-          </div>
+            <button id="clearL" class="btn btn-warning mb-3 mt-3 ml-3" onclick="clearL();">
+             Clear
+            </button>
+        </div>
          
         
         </div>
@@ -126,6 +131,9 @@
             <button class="btn btn-primary mb-3 mt-3" onclick="generateB(5, 1, 49);">
               Generate!
             </button>
+            <button id="clearB" class="btn btn-primary mb-3 mt-3 ml-3" onclick="clearB();">
+              Clear
+             </button>
           </div>
           
         </div>

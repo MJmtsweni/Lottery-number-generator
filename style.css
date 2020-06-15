@@ -45,6 +45,9 @@ h4#numLp {
 h4#numBp {
   margin-bottom: 2rem;
 }
+#jombo .btn {
+  color: white;
+}
 .lotto-bg {
   background: #fad919;
 }
@@ -135,6 +138,8 @@ p#numB6 {
 section.jumbotron {
   height: 100vh;
   background-image: url(lotto.jpg);
+  background-attachment: fixed;
+  background-size: cover;
 }
 .card {
   background: #fad919;
@@ -142,6 +147,15 @@ section.jumbotron {
 div {
   float: none;
   display: block;
+}
+
+.btn#clearL {
+  font-size: 16px;
+  display: none;
+}
+.btn#clearB {
+  font-size: 16px;
+  display: none;
 }
 @media (max-width: 1199.98px) {
   div#see-power {
@@ -352,6 +366,11 @@ div {
   }
 }
 @media (max-width: 320px) {
+  section.jumbotron {
+    background-image: url(lottosmall.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+  }
   h1 {
     font-size: 1.8rem;
   }
@@ -361,7 +380,7 @@ div {
 
   #numbers p {
     font-size: 17px;
-    margin-top: -5px;
+    margin-top: -4px;
   }
   section.jumbotron {
     margin-bottom: 0 !important;
@@ -371,31 +390,31 @@ div {
     margin-top: 0 !important;
   }
   div#see-power {
-    width: 35px;
-    height: 35px;
+    width: 38px;
+    height: 38px;
     margin-left: 0;
-    margin-right: 4px;
+    margin-right: 7px;
     margin-bottom: 5px;
     margin-top: 5px;
   }
   div#see-power-special {
-    width: 35px;
-    height: 35px;
+    width: 38px;
+    height: 38px;
     margin-left: 0;
     margin-bottom: 5px;
     margin-top: 5px;
   }
   div#see-lotto {
-    width: 35px;
-    height: 35px;
+    width: 38px;
+    height: 38px;
     margin-left: 0;
-    margin-right: 4px;
+    margin-right: 7px;
     margin-bottom: 5px;
     margin-top: 5px;
   }
   div#see-lotto-special {
-    width: 35px;
-    height: 35px;
+    width: 38px;
+    height: 38px;
     margin-left: 0;
     margin-bottom: 5px;
     margin-top: 5px;
