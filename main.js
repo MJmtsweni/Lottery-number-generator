@@ -25,7 +25,7 @@ function generateL(size, lowest, highest) {
       }
     }
   }
-  document.getElementById("numLp").innerHTML = "Your Lucky Numbers:";
+  document.getElementById("numLp").style.display = "block";
   document.getElementById("numL1").innerHTML = numbersL[0];
   document.getElementById("numL2").innerHTML = numbersL[1];
   document.getElementById("numL3").innerHTML = numbersL[2];
@@ -76,7 +76,7 @@ function generateB(size, lowest, highest) {
   var powerB = Math.floor(Math.random() * 20) + 1;
   numbersB.push(powerB);
 
-  document.getElementById("numBp").innerHTML = "Your Lucky Numbers:";
+  document.getElementById("numBp").style.display = "block";
   document.getElementById("numB1").innerHTML = numbersB[0];
   document.getElementById("numB2").innerHTML = numbersB[1];
   document.getElementById("numB3").innerHTML = numbersB[2];

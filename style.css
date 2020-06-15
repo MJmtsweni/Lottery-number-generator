@@ -40,9 +40,11 @@ p.lead {
   font-weight: 400;
 }
 h4#numLp {
+  display: none;
   margin-bottom: 2rem;
 }
 h4#numBp {
+  display: none;
   margin-bottom: 2rem;
 }
 #jombo .btn {
@@ -144,6 +146,7 @@ section.jumbotron {
 .card {
   background: #fad919;
 }
+
 div {
   float: none;
   display: block;
@@ -418,5 +421,8 @@ div {
     margin-left: 0;
     margin-bottom: 5px;
     margin-top: 5px;
+  }
+  .card-header a {
+    font-size: 12px;
   }
 }
