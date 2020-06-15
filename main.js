@@ -42,6 +42,7 @@ function clearL() {
   document.getElementById("numL4").innerHTML = "?";
   document.getElementById("numL5").innerHTML = "?";
   document.getElementById("numL6").innerHTML = "?";
+  document.getElementById("numLp").style.display = "none";
   document.getElementById("clearL").style.display = "none";
 }
 
@@ -92,6 +93,7 @@ function clearB() {
   document.getElementById("numB4").innerHTML = "?";
   document.getElementById("numB5").innerHTML = "?";
   document.getElementById("numB6").innerHTML = "?";
+  document.getElementById("numBp").style.display = "none";
   document.getElementById("clearB").style.display = "none";
 }
 
