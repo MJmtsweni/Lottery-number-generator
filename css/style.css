@@ -1,0 +1,292 @@
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #fff;
+  line-height: 1.5;
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+/* Components */
+nav {
+  background-color: #f2f2f2;
+  color: black;
+}
+
+.navbar-light .navbar-brand {
+  color: black;
+}
+
+.navbar-light .navbar-brand:hover {
+  color: #0e9bc2;
+}
+
+/* Typograph */
+
+h1, h2, h4 {
+  color: white;
+}
+
+h1 {
+  font-size: 3rem;
+  margin-top: 4rem;
+}
+
+h2 {
+  font-size: 2.5rem;
+  margin-top: 2rem;  
+}
+
+a {
+  color: black;
+}
+
+.submit {
+  margin-bottom: 10px;
+}
+
+p {
+  font-size: 1.5rem;
+  color: white;
+  margin-bottom: 8px;
+}
+
+.lead {
+  font-size: 1.8rem;
+  font-weight: 400;
+  margin: 3%;
+}
+
+/* Jumbotron */
+section.jumbotron {
+  height: 100vh;
+  background-image: url(../media/lotto.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  margin-bottom: 0 !important;
+}
+
+div.row {
+  margin-bottom: 0 !important;
+  margin-top: 0 !important;
+}
+
+#jombo .btn {
+  color: white;
+}
+
+.container {
+  max-width: 100%;
+}
+
+.col-lg-6 {
+  flex: auto;
+  max-width: 80%;
+}
+
+.lotto-bg {
+  padding: 40px;
+  background: #fad919;
+}
+
+#numbers {
+  width: 100%;
+}
+
+#see-lotto.d-flex {
+  float: none;
+  display: inline-block !important;
+}
+
+#lotto {
+  margin: auto;
+}
+
+.lotto-ball {
+  float: none;
+}
+
+#lotto a {
+  font-size: inherit;
+  color: white;
+  text-decoration: underline;
+}
+
+#lotto a:hover {
+  color: blue;
+}
+
+.power-bg {
+  padding: 40px;
+  background: #069edb;
+}
+
+#numbersB {
+  width: 100%;
+}
+
+#see-power.d-flex {
+  float: none;
+  display: inline-block !important;
+}
+
+#powerb {
+  margin: auto;
+}
+
+#powerb a {
+  font-size: inherit;
+  color: white;
+  text-decoration: underline;
+}
+
+#powerb a:hover {
+  color: blue;
+}
+
+#numbers {
+  display: inline-block;
+  margin-top: 1rem;
+}
+
+#numbersB {
+  display: inline-block;
+  margin-top: 1rem;
+}
+
+#numLp {
+  display: none;
+  margin-top: 1.5rem;
+  margin-bottom: 0;
+}
+
+#numBp {
+  display: none;
+  margin-top: 1.5rem;
+  margin-bottom: 0;
+}
+
+.btn {
+  font-size: 20px;
+  color: white;
+}
+
+.btn-warning:hover {
+  color: white;
+}
+
+.btn-warning:focus {
+  color: white;
+}
+
+.btn-warning:active {
+  color: white !important;
+}
+
+.lotto-ball {
+  float: left;
+  width: 60px;
+  height: 60px;
+  font-size: 2rem;
+  text-align: center;
+  background: #fad919;
+  border: 3px solid white;
+  border-radius: 50%;
+  padding: 10px;
+  margin-left: 26px;
+  margin-bottom: 16px;
+  margin-top: 16px;
+}
+
+.lotto-ball-special {
+  float: left;
+  width: 60px;
+  height: 60px;
+  font-size: 2rem;
+  text-align: center;
+  background: white;
+  border: 3px solid #fcf485;
+  border-radius: 50%;
+  padding: 10px;
+  margin-left: 26px;
+  margin-bottom: 16px;
+  margin-top: 16px;
+}
+
+p#numL6 {
+  color: #fad919;
+}
+
+.power-ball {
+  float: left;
+  width: 60px;
+  height: 60px;
+  font-size: 2rem;
+  text-align: center;
+  background: #069edb;
+  border: 3px solid white;
+  border-radius: 50%;
+  padding: 10px;
+  margin-left: 26px;
+  margin-bottom: 16px;
+  margin-top: 16px;
+}
+
+.power-ball-special {
+  float: left;
+  width: 60px;
+  height: 60px;
+  font-size: 2rem;
+  text-align: center;
+  background: white;
+  border: 3px solid #64ccf5;
+  border-radius: 50%;
+  padding: 10px;
+  margin-left: 26px;
+  margin-bottom: 16px;
+  margin-top: 16px;
+}
+
+i.icon {
+  font-size: 16px;
+}
+
+.btn#lotto, .btn#powerb {
+  display: block;
+  margin: auto;
+}
+
+p#numB6 {
+  color: #069edb;
+}
+
+.lead a {
+  color: blue;
+  text-decoration: underline;
+}
+
+.card {
+  background: #fad919;
+}
+
+div {
+  float: none;
+  display: block;
+}
+
+.btn#clearL {
+  font-size: 16px;
+  display: none;
+}
+.btn#clearB {
+  font-size: 16px;
+  display: none;
+}
+
