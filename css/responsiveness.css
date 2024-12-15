@@ -15,6 +15,7 @@
 
   .col-lg-6 {
     padding: 16px 10px;
+    max-width: 100%;
   }
 
   h1 {
@@ -43,6 +44,11 @@
     padding: 10px;
   }
 
+  .power-bg {
+    padding: 10px;
+  }
+  
+
   h2 {
     font-size: 1.7rem;
   }
@@ -63,7 +69,7 @@
     width: 42px;
     height: 42px;
     margin-left: 0;
-    margin-right: 7px;
+    margin-right: 8px;
     margin-bottom: 5px;
     margin-top: 5px;
   }
@@ -80,7 +86,7 @@
     width: 42px;
     height: 42px;
     margin-left: 0;
-    margin-right: 7px;
+    margin-right: 8px;
     margin-bottom: 5px;
     margin-top: 5px;
   }
@@ -95,12 +101,12 @@
 
   #numbers p {
     font-size: 18px;
-    margin-top: -4px;
+    margin-top: -5px;
   }
 
   #numbersB p {
     font-size: 18px;
-    margin-top: -4px;
+    margin-top: -5px;
   }
 
   #numLp {
@@ -131,7 +137,7 @@
   }
 
   h1 {
-    font-size: 2.7rem;
+    font-size: 2.5rem;
     margin-top: 2rem;
   }
 
@@ -155,27 +161,27 @@
   }
 
   .col-lg-6 {
+    max-width: 92%;
     padding: 16px 10px;
   }
 
   h2 {
-    font-size: 2.4rem;
+    font-size: 2rem;
   }
 
   p {
-    font-size: 25px;
+    font-size: 22px;
   }
 
   #lotto a {
-    font-size: 25px;
+    font-size: 22px;
   }
 
   #powerb a {
-    font-size: 25px;
+    font-size: 22px;
   }
 
   .lotto-ball {
-    border-width: 2.5px;
     float: none;
     display: inline-block;
   }
@@ -189,7 +195,6 @@
   }
 
   .power-ball {
-    border-width: 2.5px;
     float: none;
     display: inline-block;
   }
@@ -259,7 +264,7 @@
   }
 
   .btn {
-    font-size: 24px;
+    font-size: 20px;
   }
 
   .card-header {
@@ -297,16 +302,81 @@
     width: 100%;
   }
 
-  #see-lotto.d-flex {
-    float: none;
-    display: inline-block !important;
+  .lotto-ball {
+    margin-left: 15px;
   }
 
-  #see-power.d-flex {
-    float: none;
-    display: inline-block !important;
+  .lotto-ball-special {
+    margin-left: 15px;
   }
 
+  .power-ball {
+    margin-left: 15px;
+  }
+
+  .power-ball-special {
+    margin-left: 15px;
+  }
+
+}
+
+@media screen and (min-width: 1500px) {
+  .navbar-brand {
+    font-size: 1.5rem;
+  }
+
+  .nav-link {
+    font-size: 1.2rem;
+  }  
+
+  h1 {
+    font-size: 4rem;
+  }
+
+  .lead {
+    font-size: 2rem;
+    margin: 2%;
+  }
+
+  .btn {
+    font-size: 24px;
+  }
+
+  #lotto {
+    margin: 3% auto;
+  }
+
+  .col-lg-6 {
+    flex: auto;
+    max-width: 60%;
+  }
+
+  h2 {
+    font-size: 2.7rem;
+    margin-top: 1rem;
+  }
+
+  p {
+    font-size: 2rem;
+  }
+
+  #lotto a {
+    font-size: inherit;
+  }
+
+  h4 {
+    font-size: 2rem;
+  }
+
+  #numbers p {
+    font-size: 1.8rem;
+    margin-top: -4px;
+  }
+
+  #numbersB p {
+    font-size: 1.8rem;
+    margin-top: -4px;
+  }
 }
 
 /*@media (max-width: 1199.98px) {

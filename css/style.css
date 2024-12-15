@@ -100,10 +100,10 @@ div.row {
   width: 100%;
 }
 
-#see-lotto.d-flex {
+/*#see-lotto.d-flex {
   float: none;
   display: inline-block !important;
-}
+} */
 
 #lotto {
   margin: auto;
@@ -132,10 +132,10 @@ div.row {
   width: 100%;
 }
 
-#see-power.d-flex {
+/*#see-power.d-flex {
   float: none;
   display: inline-block !important;
-}
+}*/
 
 #powerb {
   margin: auto;
@@ -152,13 +152,25 @@ div.row {
 }
 
 #numbers {
-  display: inline-block;
+  display: flex;
+  flex-direction: row;
   margin-top: 1rem;
+  justify-content: center;
+}
+
+div#numbers > div:first-child {
+  margin-left: 0;
 }
 
 #numbersB {
-  display: inline-block;
+  display: flex;
+  flex-direction: row;
   margin-top: 1rem;
+  justify-content: center;
+}
+
+div#numbersB > div:first-child {
+  margin-left: 0;
 }
 
 #numLp {
@@ -216,6 +228,7 @@ div.row {
   border-radius: 50%;
   padding: 10px;
   margin-left: 26px;
+  margin-right: 0 !important;
   margin-bottom: 16px;
   margin-top: 16px;
 }
@@ -250,6 +263,7 @@ p#numL6 {
   border-radius: 50%;
   padding: 10px;
   margin-left: 26px;
+  margin-right: 0 !important;
   margin-bottom: 16px;
   margin-top: 16px;
 }
@@ -274,6 +288,15 @@ p#numB6 {
 
 .card {
   background: #fad919;
+}
+
+footer p {
+  font-size: 18px;
+  color: #000;
+}
+
+footer a {
+  text-decoration: underline;
 }
 
 div {
